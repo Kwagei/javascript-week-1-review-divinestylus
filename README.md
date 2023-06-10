@@ -7,10 +7,10 @@
 1. Write a function that takes an array of numbers and returns the sum of the array.
 
 ```js
-function arraySum(integers) {
+function arraySum(numbers) {
     let sum = 0;
-    for (let i = 0; i < integers.length; i++) {
-        sum += integers[i];
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
     }
     return sum;
 }
@@ -41,14 +41,14 @@ longestStr(arr);
 ```js
 let arr = [1,2,4,6,334,6,65,6,2,34,,546,6544,653,677,77845453,3,44,5,6,65765,67566];
 
-function evenArray(integers) {
-    let evenInt = [];
-    for (let i = 0; i < integers.length; i++) {
-        if (integers[i] % 2 === 0) {
-            evenInt[evenInt.length] = integers[i];
+function evenArray(numbers) {
+    let evenNum = [];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 0) {
+            evenNum[evenNum.length] = numbers[i];
         }
     }
-    return evenInt;
+    return evenNum;
 }
 
 evenArray(arr);
@@ -59,10 +59,10 @@ evenArray(arr);
 ```js
 let arr = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0];
 
-function reverseArray(integers) {
+function reverseArray(numbers) {
     let reverseArr = [];
-    for (let i = integers.length -1; i >= 0; i--) {
-        reverseArr[reverseArr.length] = integers[i];
+    for (let i = numbers.length -1; i >= 0; i--) {
+        reverseArr[reverseArr.length] = numbers[i];
     }
     return reverseArr;
 }
