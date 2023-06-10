@@ -1,8 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/pCXAkczB)
-# <strong> Sam B. Morris (@divinestylus) </strong> | JavaScript Assignment #4 
-### Due Sunday, June 11, 2023 | 11:59 PM
-<br>
-
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/pCXAkczB)\
 ### <strong> Problem Sets </strong>
 
 1. Write a function that takes an array of numbers and returns the sum of the array.
