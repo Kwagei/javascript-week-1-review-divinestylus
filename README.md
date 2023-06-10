@@ -102,9 +102,12 @@ let person = {
     orangeNum: 0776442708,
     email: 'divinestylus@gmail.com',
     updateName: function(newName) {
-        this.name = newName
+        this.name = newName;
     }
 }
+
+person.updateName('Sam B. Morris');
+person.name;
 ```
 
 7. Create an array of objects representing books. Each book should have properties for title and author. Write a function that takes the array of books and returns an array of book titles.
@@ -135,15 +138,15 @@ bookTitle(bookCollection);
 
 ```js
 let studentList = [{name: 'Francis Reeves', grade: 100},
-                {name: 'Tom Gbeyai', grade: 95},
-                {name: 'Michael Sherman', grade: 85},
-                {name: 'James Flomo', grade: 97},
-                {name: 'Aaron Sackie', grade: 88},
-                {name: 'Joshua Biley', grade: 78},
-                {name: 'Garrison Matthews', grade: 99},
-                {name: 'Stanley Dahn', grade: 70},
-                {name: 'Clementine Varney', grade: 76},
-                {name: 'Emmanuel Ngafua', grade: 92}];
+                   {name: 'Tom Gbeyai', grade: 95},
+                   {name: 'Michael Sherman', grade: 85},
+                   {name: 'James Flomo', grade: 97},
+                   {name: 'Aaron Sackie', grade: 88},
+                   {name: 'Joshua Biley', grade: 78},
+                   {name: 'Garrison Matthews', grade: 99},
+                   {name: 'Stanley Dahn', grade: 70},
+                   {name: 'Clementine Varney', grade: 76},
+                   {name: 'Emmanuel Ngafua', grade: 92}];
 
 function aStudents(students) {
     let aStud = [];
@@ -158,10 +161,10 @@ function aStudents(students) {
 aStudents(studentList);
 ```
 
-9. Given an array of numbers, write a function that returns a new array with the numbers sorted in descending order using array functions and a loop.
+9. Given an array of numbers, write a function that returns a new array with the numbers sorted in descending order.
 
 ```js
-let arr = [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100];
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
 function descendingInt(integers) {
     let descInt = [];
@@ -174,8 +177,17 @@ function descendingInt(integers) {
 descendingInt(arr);
 ```
 
-10. Create an object called "circle" with properties for radius and circumference. Create an on the object using a loop that calculates the circumference of the circle based on its radius.
+10. Create an object called "circle" with properties radius. Create a method on the object that calculates the circumference of the circle based on its radius.
 
 ```js
+let circle = {
+    pi: 3.14159,
+    getCircum: function(radius) {
+        let circum = 0;
+        circum = 2 * this.pi * radius;
+        return circum;
+    }
+}
 
+circle.getCircum(30);
 ```
