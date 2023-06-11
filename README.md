@@ -166,15 +166,15 @@ aStudents(studentList);
 ```js
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
-function descendingInt(integers) {
-    let descInt = [];
-    for (let i = integers.length; i >= 0; i--) {
-        descInt[descInt.length] = integers[i];
+function descendingNum(numbers) {
+    let descNum = [];
+    for (let i = numbers.length; i >= 0; i--) {
+        descNum[descNum.length] = numbers[i];
     }
-    return descInt;
+    return descNum;
 }
 
-descendingInt(arr);
+descendingNum(arr);
 ```
 
 10. Create an object called "circle" with properties radius. Create a method on the object that calculates the circumference of the circle based on its radius.
